@@ -5,7 +5,7 @@
 #include <iostream>
 #include <string>
 #include "hi.h"
-using namespace std
+using namespace std;
 int main(){
       string a;
       hi("world");

@@ -1,0 +1,8 @@
+problem1: hi.o main.o
+	g++ hi.cpp main.cpp -o problem1
+hi.o: hi.cpp
+	g++ -c hi.cpp
+main.o: main.cpp
+	g++ -c main.cpp
+clean:
+	rm -rf *.o problem1
