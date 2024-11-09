@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-#include "header.h"
+#include "function.h"
 int main()
     {
         double * stack = new double[100];
