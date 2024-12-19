@@ -3,23 +3,22 @@
 #ifndef ARMOUR_H
 #define ARMOUR_H
 
-#include <iostream>
 #include <string>
 
-class Armour
-    {
-        public:
-            Armour(std::string name);
-            
-            std::string get_armour_name();
-            uint get_strenght();
-            
-            void set_armour_name(std::string name);
-            void set_strenght(uint strenght);
-            
-        private:
-            std::string _armour_name;
-            uint _strenght;
-    };
+class Armour {
+public:
+    Armour(const std::string& name);
+    ~Armour() = default;
 
-#endif
+    std::string get_armour_name() const;
+    void set_armour_name(const std::string& name);
+
+    unsigned int get_strenght() const;
+    void set_strenght(unsigned int strenght);
+
+private:
+    std::string armour_name;
+    unsigned int strenght;
+};
+
+#endif // ARMOUR_H
