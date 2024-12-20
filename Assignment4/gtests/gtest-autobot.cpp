@@ -47,7 +47,7 @@ TEST(Autobot, Outputformat)
 TEST(Autobot, AgeComparison)
 {
     Autobot autobot("Bumblebee",100,"...");
-    Autobot other_autobot("Optimus Prime",101,"Here we go again!");
+    Autobot other_autobot("Optimus Prime",99,"Here we go again!");
     EXPECT_TRUE(autobot > other_autobot);
     EXPECT_TRUE(other_autobot < autobot);
 }
