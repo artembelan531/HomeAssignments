@@ -43,6 +43,5 @@ public:
     bool _IS_TRANFORMATION();
     bool Defende();
 
-
 };
 #endif
