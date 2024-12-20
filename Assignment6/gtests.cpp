@@ -1,3 +1,5 @@
+/* Belan Artem Vladislavovich
+./assignment6 st135609@student.spbu.ru*/
 #include "Mytemplclass.h"
 #include "classes.h"
 #include <gtest/gtest.h>

@@ -1,3 +1,5 @@
+/* Belan Artem Vladislavovich
+./assignment6 st135609@student.spbu.ru*/
 #ifndef CLASSES_H
 #define CLASSES_H
 
