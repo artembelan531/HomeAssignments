@@ -1,7 +1,7 @@
 /* Belan Artem Vladislavovich
 ./assignment3 st135609@student.spbu.ru*/
-#ifndef TRANSFORMER_H
-#define TRANSFORMER_H
+#ifndef TRANSFORMER_H_INCLUDED
+#define TRANSFORMER_H_INCLUDED
 
 
 #include <iostream>

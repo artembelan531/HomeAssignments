@@ -1,7 +1,7 @@
 /* Belan Artem Vladislavovich
 ./assignment3 st135609@student.spbu.ru*/
-#ifndef DECEPTICON_H
-#define DECEPTICON_H
+#ifndef MINICON_H_INCLUDED
+#define MINICON_H_INCLUDED
 #include "transformer.h"
 
 class Minicon: public Transformer

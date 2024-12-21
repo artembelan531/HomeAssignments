@@ -1,7 +1,7 @@
 /* Belan Artem Vladislavovich
 ./assignment3 st135609@student.spbu.ru*/
-#ifndef ARMOUR_H
-#define ARMOUR_H
+#ifndef ARMOUR_H_INCLUDED
+#define ARMOUR_H_INCLUDED
 
 #include <string>
 
