@@ -1,8 +1,8 @@
 /* Belan Artem Vladislavovich
 ./assignment4 st135609@student.spbu.ru*/
 #include "Autobot.h"
-Autobot::Autobot() : Transformer(),_motto("Here we go again!"), _have_a_matrix_of_leadership(true) {}
-Autobot::Autobot(std::string name) : Transformer(name),_motto("Here we go again!"), _have_a_matrix_of_leadership(true) {}
+Autobot::Autobot() : Transformer(),_motto("Goida!"), _have_a_matrix_of_leadership(true) {}
+Autobot::Autobot(std::string name) : Transformer(name),_motto("Goida!"), _have_a_matrix_of_leadership(true) {}
 Autobot::Autobot(std::string name, std::string motto) : Transformer(name),_motto(motto), _have_a_matrix_of_leadership(true) {}
 Autobot::Autobot(std::string name,uint age,std::string motto) : Transformer(name, age),_motto(motto), _have_a_matrix_of_leadership(true) {}
 

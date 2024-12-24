@@ -3,24 +3,24 @@
 #include "gtest/gtest.h"
 #include "armour.h"
 
-TEST(Armour, get_armour_name) 
+TEST(Armour, get_armour_name)
 {
     Armour armour("Shield");
     EXPECT_EQ(armour.get_armour_name(),"Shield");
 }
-TEST(Armour, get_strenght) 
+TEST(Armour, get_strenght)
 {
     Armour armour("Shield");
     EXPECT_EQ(armour.get_strenght(),100);
 }
-TEST(Armour, set_armour_name) 
+TEST(Armour, set_armour_name)
 {
     Armour armour("Shield");
     EXPECT_EQ(armour.get_armour_name(),"Shield");
-    armour.set_armour_name("Legend");
-    EXPECT_EQ(armour.get_armour_name(),"Legend");
+    armour.set_armour_name("blademail");
+    EXPECT_EQ(armour.get_armour_name(),"blademail");
 }
-TEST(Armour, set_strenght) 
+TEST(Armour, set_strenght)
 {
     Armour armour("Shield");
     EXPECT_EQ(armour.get_strenght(),100);

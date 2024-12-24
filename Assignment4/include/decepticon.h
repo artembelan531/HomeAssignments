@@ -17,6 +17,7 @@ public:
     void set_wing_length(uint wing_length);
 
     bool Flight();
+
 private:
     std::string _color_eyes;
     uint _wing_length;

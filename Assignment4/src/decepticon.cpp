@@ -1,8 +1,8 @@
 /* Belan Artem Vladislavovich
 ./assignment4 st135609@student.spbu.ru*/
 #include "decepticon.h"
-Decepticon::Decepticon() : Transformer(), _color_eyes("red"), _wing_length(30) {}
-Decepticon::Decepticon(std::string name) : Transformer(name), _color_eyes("red"), _wing_length(30) {}
+Decepticon::Decepticon() : Transformer(), _color_eyes("red"), _wing_length(120) {}
+Decepticon::Decepticon(std::string name) : Transformer(name), _color_eyes("red"), _wing_length(120) {}
 Decepticon::Decepticon(std::string name,uint age) : Transformer(name, age), _color_eyes("red"), _wing_length(120) {}
 std::string Decepticon::get_color_eyes()
 {

@@ -42,7 +42,7 @@ TEST(Minicon, Outputformat)
 TEST(Minicon, AgeComparison)
 {
     Minicon minicon("Overrun", 60);
-    Minicon other_minicon("Noname",55);
+    Minicon other_minicon("Oleg",75);
     EXPECT_TRUE(minicon < other_minicon);
     EXPECT_TRUE(other_minicon > minicon);
 }
