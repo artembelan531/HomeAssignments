@@ -1,7 +1,7 @@
 /* Belan Artem Vladislavovich
 ./assignment3 st135609@student.spbu.ru*/
-#ifndef TRANSFORMER_H_INCLUDED
-#define TRANSFORMER_H_INCLUDED
+#ifndef TRANSFORMER_H
+#define TRANSFORMER_H
 
 
 #include <iostream>
@@ -42,4 +42,4 @@ class Transformer
             Armour* _armour;
     
     };
-#endif  
+#endif 

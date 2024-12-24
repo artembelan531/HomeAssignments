@@ -1,7 +1,7 @@
 /* Belan Artem Vladislavovich
 ./assignment3 st135609@student.spbu.ru*/
-#ifndef WEAPON_H_INCLUDED
-#define WEAPON_H_INCLUDED
+#ifndef WEAPON_H
+#define WEAPON_H
 #include <iostream>
 #include <string>
 
